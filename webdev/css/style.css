@@ -1,0 +1,449 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+.wrapper {
+    width: 1600px;
+    margin: auto;
+}
+
+.btn-main {
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 15px 47px;
+    background: #00AFDB;
+    text-transform: uppercase;
+}
+
+.btn-main:hover {
+    background: #009CC2;
+}
+
+.header {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/bg-img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 744px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navigation {
+    margin: 25px 0 25px 30px;
+}
+
+.navigation-links {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.navigation-link {
+    margin-right: 85px;
+    list-style-type: none;
+}
+
+.navigation-link:nth-child(2), .navigation-link:nth-child(3) {
+    margin-right: 100px;
+}
+
+.navigation-link a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 140%;
+    opacity: 0.8;
+}
+
+.navigation-link:nth-child(1) a {
+    opacity: 1;
+    padding-bottom: 2px;
+    border-bottom: 1px #ffffff solid;
+    font-weight: 500;
+}
+
+.your-life-content-title {
+    margin: 130px 0 20px 15px;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    width: 750px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+}
+
+.your-life-content-subtitle {
+    font-size: 18px;
+    line-height: 140%;
+    font-weight: normal;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.your-life-content-button {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 168px;
+}
+
+.your-life-links {
+    display: flex;
+    margin-right: 7px;
+}
+
+.your-life-links li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.your-life-links li a:hover {
+    opacity: 0.8;
+}
+
+.rappresent {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.rappresent-content {
+    width: 414px;
+    padding: 275px 242px 314px 268px;
+}
+
+.rappresent-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+    margin-bottom: 23px;
+}
+
+.rappresent-subtitle {
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+    margin-bottom: 30px;
+}
+
+.rappresent-img {
+    padding-top: 60px;
+    padding-bottom: 120px;
+    width: 407px;
+    height: 582px;
+}
+
+.our-community {
+    background: #F5F6F7;
+    display: flex;
+}
+
+.our-community-content {
+    width: 298px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 155px 139px 174px 269px;
+}
+
+.community-content-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+
+}
+
+.community-content-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #373737;
+    margin: 0 0 10px 5px;
+}
+
+.community-content-subtitle {
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+    margin: 0;
+}
+
+.community-slider {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 75px;
+}
+
+.community-slider-items {
+    display: flex;
+    position: relative;
+}
+
+.community-slider-item img {
+    width: 407px;
+    height: 244px;
+    margin-right: 30px;
+}
+
+.community-slider-items::after {
+    content: "";
+    width: 22px;
+    height: 244px;
+    background-image: url(../assets/slider-img-3.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 872px;
+}
+
+.community-slider-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 290px;
+}
+
+.community-slider-left-arrow {
+    margin-right: 9.5px;
+    cursor: pointer;
+}
+
+.community-slider-left-arrow:hover {
+    opacity: 0.8;
+}
+
+.community-slider-right-arrow {
+    margin-left: 9.5px;
+    cursor: pointer;
+}
+
+.community-slider-right-arrow:hover {
+    opacity: 0.8;
+}
+
+.community-slider-nav-counter {
+    font-size: 18px;
+    line-height: 140%;
+    color: #373737;
+}
+
+.implement {
+    display: flex;
+}
+
+.implement-img {
+    width: 407px;
+    height: 582px;
+    padding: 120px 139px 120px 269px;
+}
+
+.implement-content {
+    width: 425px;
+    padding: 317px 378px 319px 0;
+}
+
+.implement-content-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+    margin-top: 0;
+    margin-bottom: 23px;
+}
+
+.implement-content-subtitle {
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.sign-up {
+    height: 518px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/bg-img-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.sign-up-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 195px;
+    margin-bottom: 30px;
+}
+
+.sign-up-email {
+    display: flex;
+    margin: auto;
+    width: 406px;
+    height: 46px;
+}
+
+.sign-up-input {
+    border: none;
+    display: flex;
+    width: 340px;
+    margin-right: 0;
+}
+
+.sign-up-submit {
+    cursor: pointer;
+    margin-left: 0;
+    width: 66px;
+    background-color: #00AFDB;
+    border: none;
+}
+
+.sign-up-submit:hover {
+    background-color: #009CC2;
+}
+
+.download { 
+    background: #F5F6F7;
+    text-align: center;
+    padding-bottom: 180px;
+    padding-top: 120px;
+}
+
+.download-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 23px;
+    color: #373737;
+}
+
+.download-subtitle {
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+    width: 483px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.btn-store {
+    cursor: pointer;
+    border: none;
+    width: 146px;
+    height: 50px;
+    background: #00AFDB;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-right: 90px;
+    position: relative;
+}
+
+.btn-store:hover {
+    opacity: 0.8;
+}
+
+.btn-store:nth-child(1) {
+    margin-left: 50px;
+}
+
+.btn-store:nth-child(2) {
+    margin-left: -25px;
+}
+
+.btn-store-apple::after {
+    cursor: pointer;
+    content: url(../assets/icon-apple.png);
+    margin-left: 128px;
+    position:absolute;
+	display:block;
+	padding-top:15px;
+	top:0px;
+    width: 60px;
+    max-height:35px;
+	height:100%;
+    background: #009CC2;
+}
+
+.btn-store-android::after {
+    cursor: pointer;
+    content: url(../assets/icon-android.png);
+    margin-left: 128px;
+    position:absolute;
+	display:block;
+	padding-top:15px;
+	top:0px;
+    width: 60px;
+    max-height:35px;
+	height:100%;
+    background: #009CC2;
+}
+
+.footer {
+    background: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 54px 0 79px 0;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-link {
+    list-style: none;
+}
+
+.footer-link a {
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+    opacity: 0.98;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.footer-logo {
+    margin-left: 105px;
+}
+
+.footer-subtitle {
+    margin-right: 40px;
+    margin-left: 220px;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #818181;
+}
